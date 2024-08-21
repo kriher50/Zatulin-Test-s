@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Стили для светлой темы */
+.bg-gray-100 {
+    background-color: #f7fafc;
+}
+.text-gray-900 {
+    color: #1a202c;
+}
+
+/* Стили для тёмной темы */
+.dark .bg-gray-900 {
+    background-color: #1a202c;
+}
+.dark .text-gray-100 {
+    color: #f7fafc;
+}
