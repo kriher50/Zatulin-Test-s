@@ -14,7 +14,7 @@ class Kernel extends ConsoleKernel
 
     protected function schedule(Schedule $schedule)
     {
-        // Здесь можно задать расписание команд
+
     }
 
     protected function commands()

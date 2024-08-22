@@ -5,10 +5,10 @@ module.exports = {
         './resources/**/*.js',
         './resources/**/*.vue',
     ],
-    darkMode: 'class', // Добавляем поддержку темной темы через класс
+    darkMode: 'class', // Тёмная тема(не)
     theme: {
         extend: {
-            // Здесь можно расширить тему
+
         },
     },
     plugins: [],

@@ -20,7 +20,7 @@ class TransportTime extends Command
     {
         $distance = (float) $this->argument('distance');
 
-        // скорость и имя
+        // скорость, имя
         $transportModes = [
             'Mercedes-Benz E-Класс 220 d' => new Car(150),
             'BMW X6 30d' => new Car(140),

@@ -8,7 +8,6 @@
 
 </head>
 <body class="bg-gray-100 text-gray-900">
-<!-- resources/views/components/header.blade.php -->
 <header class="bg-white shadow-md p-4">
     <nav class="container mx-auto flex justify-between">
         <ul class="flex space-x-4">
