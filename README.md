@@ -47,18 +47,18 @@ php artisan serve
 # Быстрая установка
 Если необходимо быстро установить проект, выполните все шаги одной командой:
 ```bash
-git clone https://github.com/kriher50/Zatulin-Test-s.git && \
-cd Zatulin-Test-s && \
-composer install && \
-npm install && \
-npm audit fix --force && \
-npm audit fix && \
-npm run build && \
-cp .env.example .env && \
-php artisan key:generate && \
-php artisan migrate && \
+git clone https://github.com/kriher50/Zatulin-Test-s.git
+cd Zatulin-Test-s
+composer install
+npm install
+npm audit fix --force
+npm audit fix
+npm run build
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
 php artisan db:seed && \
-php artisan db:seed --class=ArticleSeeder && \
+php artisan db:seed --class=ArticleSeeder
 php artisan serve
 ```
 # Тестирование
