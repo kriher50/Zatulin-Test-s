@@ -7,25 +7,23 @@ use Illuminate\Http\Request;
 
 class ArticleController extends Controller
 {
-    // Отображение главной страницы
+    //главная страница
     public function index()
     {
         // 6 статей
         $articles = Article::latest()->take(6)->get();
 
-        // Возвращаем вид с переданными данными
         return view('home', compact('articles'));
     }
 
-    // Метод для отображения каталога статей
+
     public function catalog()
     {
-        // Все статьи (10 на страницу)
+        // Все статьи
         $articles = Article::latest()->paginate(10);
           return view('articles.catalog', ['articles' => $articles]);
     }
 
-    // Метод для отображения конкретной статьи
    public function show(Article $article)
    {
        $article->increment('views');
